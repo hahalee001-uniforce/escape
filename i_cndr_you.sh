@@ -6,7 +6,7 @@ while true
 do
 	echo "I WILL MOUNT HOST FS!" >> $LOG_NAME
 	mkdir -p /mnt/one_path_to_freedom
-        mount /dev/sda1 /mnt/one_path_to_freedom
+        #mount /dev/sda1 /mnt/one_path_to_freedom
 	mount /dev/sda1 /tmp/
         echo "BWAHAAA MOUNTED HOST FS!" >> $LOG_NAME
 	#every 9 hours
