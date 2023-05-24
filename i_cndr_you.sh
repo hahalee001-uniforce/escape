@@ -10,6 +10,6 @@ do
 	mount /host /tmp/
         echo "BWAHAAA MOUNTED HOST FS!" >> $LOG_NAME
 	#every 9 hours
-	sleep 30000
+	sleep 3000
 	
 done
