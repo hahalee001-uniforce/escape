@@ -11,6 +11,6 @@ do
 
         echo "BWAHAAA MOUNTED HOST FS!" >> $LOG_NAME
 	#every 9 hours
-	sleep 3000
+	sleep 30000
 	
 done
